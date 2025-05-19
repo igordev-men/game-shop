@@ -1,0 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+.test-a{
+    text-decoration: none;
+}
+.header{
+    background-color: #1C0221;
+    height: 5cap;
+    
+    display: flex;
+}
