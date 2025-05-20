@@ -4,22 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <title>Games Shop</title>
 </head>
 <body>
+    
     <nav class="header">
-        <h1>Games Shop</h1>
-        <a  class="teste-a" href="#sobre-nos">Sobre nos </a>
-        <a href="#contato"> Fale com nos </a>
+        <h1 class="tl-header">Games Shop</h1>
+        <div class="nav-menu">
+        <a  class="btn-1" href="#sobre-nos">Sobre nos </a>
+        <a href="contato" class="btn-1"> Fale com nos </a>
+        </div>
     </nav>
     <main>
         <section class="hero">
-            <H3>Bem-vindo a Games Shop</H3>
-            <p>Vem dar uma olhada nos produtos</p>
-            <a class="btn-call-to-action" >
+            <div class="hero-content">
+            <H3 class="tl-secundario">Bem-vindo a Games Shop</H3>
+            <p class="paragrafo">Vem dar uma olhada nos produtos</p>
+            <a class="btn-2" >
                 Ver produtos 
             </a>
-            <img src="logo-hero" alt="">
+            </div>
+            
+            <div class="img-hero">
+                <img src="./galeria/loja-hero.jpg" alt="logo-hero">
+            </div>
         </section>
         <section class="sobre-nos">
             <h4>Conheça nossa historia:</h4>
@@ -30,9 +41,6 @@
             </p>
         </section>
         <section class="produtos">
-
-        </section>
-        <section class="contato">
             <ul>
                 <li>
                     <img src="produto-1" alt="">
@@ -62,6 +70,9 @@
                     <button class="buy-btn">Adicionar no carrinho</button>
                 </li>
             </ul>
+        </section>
+        <section class="contato">
+            
         </section>
     </main>
 </body>
